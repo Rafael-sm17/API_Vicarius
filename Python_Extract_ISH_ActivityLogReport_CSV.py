@@ -13,7 +13,7 @@ apikey = input('Entre com a Chave de API: ')
 urldashboard = input('Entre com a URL da Console de Gerenciamento: ')
 
 #CRIAÇÃO ARQUIVO CSV
-f = open('ISH_ActivityLogReport.csv', 'w', encoding='UTF8')
+f = open('ActivityLogReport.csv', 'w', encoding='UTF8')
 
 #ESCRITA COLUNAS CSV
 f.write('AutomationName,Asset,SO,TaskType,PublisherName,PathOrProduct,pathFileName,ActionStatus,MessageStatus,Username,CreateAt,UpdateAt\n')
